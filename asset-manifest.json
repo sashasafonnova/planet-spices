@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/planet-spices/static/css/main.7d31d43a.css",
+    "main.js": "/planet-spices/static/js/main.54dc41b0.js",
+    "static/media/spices.jpg": "/planet-spices/static/media/spices.6d066e41450b4a2b4c32.jpg",
+    "static/media/checked.svg": "/planet-spices/static/media/checked.6ccd249ff76f25940310.svg",
+    "index.html": "/planet-spices/index.html",
+    "main.7d31d43a.css.map": "/planet-spices/static/css/main.7d31d43a.css.map",
+    "main.54dc41b0.js.map": "/planet-spices/static/js/main.54dc41b0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d31d43a.css",
+    "static/js/main.54dc41b0.js"
+  ]
+}

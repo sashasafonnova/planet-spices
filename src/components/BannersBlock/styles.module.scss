@@ -1,0 +1,77 @@
+@import '../../scss/vars';
+
+
+
+.banners {
+    padding-bottom: 100px;
+}
+
+
+.content{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 20px;
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: 
+    'banner-1 banner-1 banner-2 banner-2 banner-3 banner-3'
+    'banner-4 banner-4 banner-4 banner-5 banner-5 banner-5';
+
+    @media (max-width: 640px){
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, 250px);
+        grid-template-areas: 
+        'banner-1'
+        'banner-2'
+        'banner-3'
+        'banner-4'
+        'banner-5';
+    }
+}
+
+.item{
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+
+
+.text {
+    position: absolute;
+    padding-left: 20px;
+    max-width: 130px;
+    color: #fff;
+}
+
+
+.img {
+    object-fit: cover;
+    object-position: top right;
+    width: 100%;
+    height: 100%;
+}
+
+
+.item1{
+    grid-area: banner-1;
+}
+
+.item2{
+    grid-area: banner-2;
+}
+
+.item3{
+    grid-area: banner-3;
+}
+
+.item4{
+    grid-area: banner-4;
+}
+
+.item5{
+    grid-area: banner-5;
+
+    p{
+        max-width: 215px;
+    }
+}

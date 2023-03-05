@@ -1,0 +1,74 @@
+@import '../../scss/vars';
+
+
+.content {
+   padding: 40px 0px 0px;
+   flex: 1 1 auto;
+}
+
+
+.title {
+   font-size: 34px;
+   font-weight: 600;
+   color: $colormain;
+   margin-bottom: 10px;
+}
+
+
+.details {
+   white-space: nowrap;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 20px 0px 40px;
+}
+
+
+.clearAll {
+   background: transparent;
+   color: #c0c0c0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   &:hover {
+      color: rgb(233, 102, 93);
+   }
+}
+
+
+
+.total {
+   padding: 20px 0px 60px 0px;
+}
+
+
+
+.totalPrice {
+   margin-right: 30px;
+   padding: 20px 0px;
+   
+   span {
+      font-weight: 600;
+   }
+}
+
+
+.btn {
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   padding: 12px 30px;
+   background: $coloraccent;
+   border-radius: 30px;
+   width: 80%;
+   max-width: 180px;
+   color: #fff;
+   white-space: nowrap;
+
+   &:hover {
+      background: #ff8418;
+   }
+}
+
+

@@ -1,0 +1,27 @@
+.menu {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    white-space: nowrap;
+    @media (max-width: 640px){
+        display: none;
+    }
+}
+
+.menuItem {
+    margin-right: 30px;
+    transition: 200ms;
+    &:hover {
+        transform: translateY(-3px);
+        cursor: pointer;
+    }
+}
+
+.menuLink {
+    color: inherit;
+}
+
+
+
+
+

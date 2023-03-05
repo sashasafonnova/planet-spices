@@ -1,0 +1,74 @@
+@import '../../scss/vars';
+
+
+
+.content {
+    padding: 40px 0px 100px;
+}
+
+
+.textBlock {
+    margin: 0px 00px 60px 0px;
+}
+
+
+.title {
+    font-size: 34px;
+    color: $colormain;
+    margin-bottom: 20px;
+    font-weight: 600;
+    
+    @media (max-width: 860px){
+        font-size: 28px;
+    }
+    @media (max-width: 480px){
+        font-size: 22px;
+    }
+
+    span {
+        color: $coloraccent;
+    }
+}
+
+
+
+
+
+.numbers {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+    
+    @media (max-width: 680px) {
+        grid-template-columns: repeat(2, 1fr);
+        }
+}
+
+
+.numbersItem {
+    white-space: nowrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    @media (max-width: 680px) {
+        margin-bottom: 30px;
+        white-space: pre-line;
+    }
+    
+    &:not(:last-child){
+        margin-right: 60px;
+        @media (max-width: 680px) {
+            margin-right: 20px;
+            }
+    }
+    
+
+}
+
+.number {
+        margin-bottom: 10px;
+        font-weight: 600;
+        font-size: 30px;
+        color: $colormain;
+}

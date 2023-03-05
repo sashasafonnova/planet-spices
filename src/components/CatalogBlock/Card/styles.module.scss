@@ -1,0 +1,181 @@
+@import '../../../scss/vars';
+
+.card {
+    border: 1px solid #EFF2F4;
+    position: relative;
+    transition: 200ms;
+
+    &:hover{
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.10);
+        transform: translateY(-10px);
+    }
+}
+
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0px 20px;
+    
+}
+
+
+.favorite {
+    background: transparent;
+    padding: 10px 0px;
+}
+
+
+
+.favoriteNoAdded {
+    stroke:  #B8C1CA;
+    fill: none;
+
+    &:hover {
+        stroke: $coloraccent;
+    }
+}
+
+
+
+.favoriteAdded {
+    fill: $coloraccent;
+    stroke: $coloraccent;
+}
+
+
+
+.content{
+    padding: 0px 15px 30px;
+}
+
+
+.img {
+    margin-bottom: 20px;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+.title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 8px;
+
+    @media (max-width: 960px){
+        font-size: 18px;
+    }
+
+    @media (max-width: 640px){
+        font-size: 16px;
+    }
+
+}
+
+
+.text {
+    min-height: 160px;
+    font-size: 15px;
+    margin-bottom: 24px;
+
+    @media (max-width: 960px) {
+        font-size: 14px;
+    }
+
+    @media (max-width: 640px) {
+        font-size: 13px;
+    }
+}
+
+
+
+.details {
+    position: absolute;
+    bottom: 20px;
+    padding: 0px 15px;
+    left: 0px;
+    right: 0;
+
+}
+
+
+.prices {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.newPrice {
+    color: #E73A2E;
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+
+.oldPrice {
+    text-decoration: line-through;
+    color: #c0c0c0;
+    padding-right: 10px;
+}
+
+.price {
+    color: inherit;
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+.weight {
+    font-weight: 300;
+    font-style: italic;
+}
+
+
+.counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+
+.counterBtn {
+    background: transparent;
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+
+    &:hover {
+        background-color: #9AC643;
+        ;
+        color: #fff;
+        border-color: #9AC643;
+    }
+}
+
+
+.counterText {
+    margin: 0px 10px;
+}
+
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 24px;
+    background: $coloraccent;
+    border-radius: 30px;
+    width: 80%;
+    max-width: 180px;
+    margin: 0 auto;
+    color: #fff;
+    
+    &:hover{
+        background: #ff8418;
+    }
+}

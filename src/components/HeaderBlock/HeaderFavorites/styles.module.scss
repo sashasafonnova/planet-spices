@@ -1,0 +1,31 @@
+@import '../../../scss/_vars';
+
+.favorites {
+    position: relative;
+    background: transparent;
+    
+}
+.icon {
+    width: 21px;
+    height: 23px;
+
+    @media (max-width: 640px){
+        width: 18px;
+        height: 20px;
+    }
+}
+
+.count {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: -14px;
+    right: -16px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $coloraccent;
+    font-size: 11px;
+    color: #fff;
+}

@@ -1,0 +1,75 @@
+@import '../../scss/vars';
+
+
+
+.btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 46px;
+
+    @media (max-width: 330px) {
+        flex-wrap: wrap;
+    }
+}
+
+
+.item {
+    &:not(:last-child) {
+        margin-right: 6px;
+
+        @media (max-width: 330px) {
+            margin-bottom: 6px;
+        }
+    }
+}
+
+
+.btn {
+    padding: 13px 28px;
+    background-color: #EFF2F4;
+}
+
+
+.btnActive {
+    background-color: #fff;
+    border: 1px solid #e3e6e8;
+    border-bottom: none;
+}
+
+
+
+.items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    padding: 0px 0px 40px 0px;
+    
+    
+    @media (max-width: 960px){
+        grid-template-columns: repeat(3, 1fr);
+    }
+    @media (max-width: 640px){
+        grid-template-columns: repeat(2, 1fr);
+    }
+    @media (max-width: 480px){
+        grid-template-columns: 1fr;
+    }
+}
+
+
+.showCatalog {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px 80px;
+    transition: 200ms;
+} 
+
+.link {
+    border-bottom: 1px dashed #909090;
+    color: inherit;
+
+    &:hover {
+        color: $colormain;
+    }
+}

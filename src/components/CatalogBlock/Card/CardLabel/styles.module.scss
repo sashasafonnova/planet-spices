@@ -1,0 +1,30 @@
+@import '../../../../scss/vars';
+
+
+.label {
+   position: absolute;
+   top: 0;
+   left: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   p {
+      position: absolute;
+      font-size: 11px;
+      color: #fff;
+   }
+}
+
+
+.sales {
+   fill: #E73A2E;
+}
+
+.new {
+   fill: #53BADA;
+}
+
+.hits {
+   fill: #83BA17;
+}

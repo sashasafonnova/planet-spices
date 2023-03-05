@@ -1,0 +1,82 @@
+@import '../../../scss/vars';
+
+
+.footerTop {
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.nav {
+    padding: 30px 0px;
+}
+
+
+
+.footerBottom {
+    padding: 30px 0px;
+    font-size: 14px;
+    
+    @media (max-width: 480px){
+        font-size: 12px;
+    }
+}
+
+
+
+
+.bottomContent {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    
+    grid-template-areas: 
+    'copyright networks developers';
+
+    @media (max-width: 640px){
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        'networks'
+        'copyright' 
+        'developers';
+    }
+        
+}
+
+
+
+
+.copyright {
+    grid-area: copyright;
+    justify-self: start;
+    
+    @media (max-width: 640px){
+        margin-bottom: 10px;
+    }
+}
+
+
+
+.networks {
+    grid-area: networks;
+    justify-self: center;
+
+    img {
+        padding: 0px 2px;
+    }
+    
+    @media (max-width: 640px){
+        justify-self: start;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+.developers {
+    color: inherit;
+    grid-area: developers;
+    text-align: center;
+    justify-self: end;
+    @media (max-width: 640px){
+        justify-self: start;
+    }
+}

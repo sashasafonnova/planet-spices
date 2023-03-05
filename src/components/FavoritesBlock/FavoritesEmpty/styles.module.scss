@@ -1,0 +1,29 @@
+@import '../../../scss/vars';
+
+
+.emptyBlock {
+   padding: 60px 0px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.img {
+   width: 100px;
+   margin-bottom: 40px;
+
+   img {
+      width: 100%;
+      height: 100%;
+   }
+}
+
+.title {
+   margin-bottom: 20px;
+}
+
+.link {
+   color: $colormain;
+   text-decoration: underline;
+}

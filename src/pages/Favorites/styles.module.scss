@@ -1,0 +1,60 @@
+@import '../../scss/vars';
+
+.content {
+   padding: 40px 0px 0px;
+   flex: 1 1 auto;
+}
+
+
+.title {
+   font-size: 34px;
+   font-weight: 600;
+   color: $colormain;
+   margin-bottom: 10px;
+}
+
+
+
+.details {
+   white-space: nowrap;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 20px 0px 40px;
+}
+
+
+.clearAll {
+   background: transparent;
+   color: #c0c0c0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   &:hover {
+      color: rgb(233, 102, 93);
+   }
+}
+
+
+
+.items {
+   display: grid;
+   width: 100%;
+   grid-template-columns: repeat(4, 1fr);
+   grid-gap: 20px;
+   margin-bottom: 40px;
+
+   @media (max-width: 960px) {
+      grid-template-columns: repeat(3, 1fr);
+   }
+
+   @media (max-width: 580px) {
+      grid-template-columns: repeat(2, 1fr);
+   }
+
+   @media (max-width: 380px) {
+      grid-template-columns: 1fr;
+   }
+
+}

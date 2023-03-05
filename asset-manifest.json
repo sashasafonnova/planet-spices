@@ -1,15 +1,27 @@
 {
   "files": {
     "main.css": "/planet-spices/static/css/main.7d31d43a.css",
-    "main.js": "/planet-spices/static/js/main.54dc41b0.js",
+    "main.js": "/planet-spices/static/js/main.2eea7720.js",
     "static/media/spices.jpg": "/planet-spices/static/media/spices.6d066e41450b4a2b4c32.jpg",
+    "static/media/fetchError.jpg": "/planet-spices/static/media/fetchError.52fbec323cf9d9cc0393.jpg",
+    "static/media/classic-spices.jpg": "/planet-spices/static/media/classic-spices.a47b7af48af73d3b6d6a.jpg",
+    "static/media/vegetables.jpg": "/planet-spices/static/media/vegetables.098b68083e52a014694b.jpg",
+    "static/media/main-cooks.jpg": "/planet-spices/static/media/main-cooks.fa4ccb9f253a0d1b1bd0.jpg",
+    "static/media/deserts.jpg": "/planet-spices/static/media/deserts.04504c12bd3f491b5a4c.jpg",
+    "static/media/cocktails.jpg": "/planet-spices/static/media/cocktails.aba8e9a6fc36d8806f67.jpg",
+    "static/media/delivery.svg": "/planet-spices/static/media/delivery.fd31a35eaeced47652d6797edbaed050.svg",
+    "static/media/emptyCart.svg": "/planet-spices/static/media/emptyCart.6aeec6f1bd62f65d76a19192293775e7.svg",
     "static/media/checked.svg": "/planet-spices/static/media/checked.6ccd249ff76f25940310.svg",
+    "static/media/clearSearch.svg": "/planet-spices/static/media/clearSearch.d317f51139090da396b8880eee140337.svg",
+    "static/media/instagram-icon.svg": "/planet-spices/static/media/instagram-icon.84d9b424681d3a2369b1df501d21b3e0.svg",
+    "static/media/vk-icon.svg": "/planet-spices/static/media/vk-icon.2058ad6e02585f3e7c21142fede04027.svg",
     "index.html": "/planet-spices/index.html",
+    "static/media/facebook-icon.svg": "/planet-spices/static/media/facebook-icon.188650d9c698253286a2e305eaff6604.svg",
     "main.7d31d43a.css.map": "/planet-spices/static/css/main.7d31d43a.css.map",
-    "main.54dc41b0.js.map": "/planet-spices/static/js/main.54dc41b0.js.map"
+    "main.2eea7720.js.map": "/planet-spices/static/js/main.2eea7720.js.map"
   },
   "entrypoints": [
     "static/css/main.7d31d43a.css",
-    "static/js/main.54dc41b0.js"
+    "static/js/main.2eea7720.js"
   ]
 }
